@@ -4,55 +4,98 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Lato", sans-serif
 }
 
 /* utilityes */
 
-.color-white{
+.color-white {
     color: white;
+}
+
+.flex {
+    display: flex;
 }
 
 /* header */
 
-header{
+header {
     position: sticky;
-    height: 75px;
-    background-color: black;
+    height: 100px;
+    background-color: rgb(8, 11, 18, 255);
     top: 0;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.btn-header{
+.btn-header {
     border: 1px solid white;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     margin: 10px;
 }
 
-main{
+
+main {
     height: calc(100vh - 200px);
     background-color: brown;
     display: flex;
 }
 
-footer{
+footer {
     height: 150px;
-    background-color: blueviolet;
+    background-color: rgb(40, 40, 40, 255);
 }
 
-#sidebar{
+#sidebar {
     height: 100%;
     width: 200px;
-    background-color: rgb(119, 187, 246);
+    background-color: rgb(0, 0, 0);
 }
 
-#content{
+#content {
     width: calc(100% - 200px);
-    background-color: aquamarine;
+    background-color: rgb(20, 25, 34, 255);
 }
 
+/* sidebar */
 
+.logo {
+    width: 100%;
+    padding: 20px 50px 10px 10px;
+}
+
+.card-sidebar {
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.img-sidebar {
+    margin-top: 10px;
+    width: 15%;
+}
+
+.text-sidebar {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 20%;
+    left: 10%;
+}
+
+.libreria {
+    position: absolute;
+    transform: translate(50%, 50%);
+    top: 10%;
+    left: 0%;
+}
+
+.btn-playlist{
+    height: 30px;
+    width: 30px;
+    background-color: #A3A3A3;
+    position: relative;
+    display: inline-block;
+}
