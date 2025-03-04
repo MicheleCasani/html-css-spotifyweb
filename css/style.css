@@ -203,12 +203,17 @@ footer {
     width: 100%;
 }
 
-.text-square{
+.text-square {
     text-align: center;
     line-height: 25px;
 }
 
-#content .color-grey{
-    margin-left: 20px;
+.square .color-white {
+    font-size: 20px;
     margin-top: 10px;
+}
+
+.margin-content {
+    margin-top: 10px;
+    margin-left: 20px;
 }
