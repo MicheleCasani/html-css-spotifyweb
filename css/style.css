@@ -22,9 +22,14 @@ body {
     display: flex;
 }
 
-.justify-content{
+.justify-content {
     justify-content: center;
 }
+
+.padding-left{
+    padding-left: 10px;
+}
+
 
 /* header */
 
@@ -128,7 +133,7 @@ footer {
 }
 
 .card-list ul {
-    color: white;
+    color: grey;
     margin-top: 15px;
     line-height: 50px;
     list-style: none;
@@ -147,13 +152,10 @@ footer {
     justify-content: center
 }
 
-.flex .color-white {
-    margin-left: 10px;
-}
 
 .hr-sidebar {
     width: 90%;
-    color: rgb(255, 255, 255);
+    color: grey;
     margin-top: 10px;
 }
 
@@ -245,12 +247,12 @@ footer {
     margin-left: 10px;
 }
 
-.square-img-footer{
+.square-img-footer {
     height: 50px;
 }
 
-.square-img-footer img{
-    height:100%;
+.square-img-footer img {
+    height: 100%;
 }
 
 
@@ -261,33 +263,33 @@ footer {
     margin-left: 10px;
 }
 
-.btn-footer-left{
+.btn-footer-left {
     align-items: center;
     padding: 9px;
     margin-left: 30px;
 }
 
-.btn-footer-left i{
+.btn-footer-left i {
     margin-right: 10px;
 }
 
-.card-footer-center{
+.card-footer-center {
     width: 40%;
     height: 50%;
 }
 
-.card-footer-center i{
+.card-footer-center i {
     margin-right: 40px;
     display: flex;
     align-items: center;
 }
 
-.card-footer-center i:nth-child(3){
+.card-footer-center i:nth-child(3) {
     font-size: 30px;
     position: relative;
 }
 
-.line{
+.line {
     width: 500px;
     border: 2px solid grey;
     border-radius: 50px;
@@ -296,7 +298,7 @@ footer {
 
 }
 
-.card-footer-right{
+.card-footer-right {
     width: 20%;
     height: 50%;
     display: flex;
@@ -304,13 +306,13 @@ footer {
     justify-content: end;
 }
 
-.time{
+.time {
     color: white;
     font-size: 10px;
     margin-top: 10px;
 }
 
-.volume{
+.volume {
     width: 100px;
     border: 2px solid grey;
     border-radius: 50px;
@@ -318,7 +320,7 @@ footer {
     margin: 5px 20px 0px 20px;
 }
 
-.card-footer-right i{
+.card-footer-right i {
     color: white;
     margin-right: 15px;
     font-size: 10px;
