@@ -14,6 +14,10 @@ body {
     color: white;
 }
 
+.color-grey {
+    color: grey;
+}
+
 .flex {
     display: flex;
 }
@@ -40,7 +44,6 @@ header {
 
 main {
     height: calc(100vh - 200px);
-    background-color: brown;
     display: flex;
 }
 
@@ -58,6 +61,7 @@ footer {
 #content {
     width: calc(100% - 200px);
     background-color: rgb(20, 25, 34, 255);
+    overflow-y: auto;
 }
 
 /* sidebar */
@@ -165,4 +169,38 @@ footer {
 
 .jhon-doe {
     display: inline-block;
+}
+
+/* content */
+
+.text-top-content {
+    justify-content: center;
+    gap: 3%;
+    margin-top: 20px;
+}
+
+.square {
+    width: 17%;
+    margin: 30px 20px 20px 20px;
+}
+
+
+#content h2 {
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.card-square {
+    width: 100%;
+    display: flex;
+}
+
+.img-square {
+    width: 100%;
+}
+
+.text-square{
+    text-align: center;
+    line-height: 25px;
 }
