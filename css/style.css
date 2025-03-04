@@ -173,15 +173,14 @@ footer {
 
 /* content */
 
-.text-top-content {
+.text-content {
     justify-content: center;
     gap: 3%;
     margin-top: 20px;
 }
 
 .square {
-    width: 17%;
-    margin: 30px 20px 20px 20px;
+    width: 15%;
 }
 
 
@@ -194,6 +193,10 @@ footer {
 .card-square {
     width: 100%;
     display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
 }
 
 .img-square {
@@ -203,4 +206,9 @@ footer {
 .text-square{
     text-align: center;
     line-height: 25px;
+}
+
+#content .color-grey{
+    margin-left: 20px;
+    margin-top: 10px;
 }
