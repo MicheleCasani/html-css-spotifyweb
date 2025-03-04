@@ -135,19 +135,34 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    margin-top: 350px;
+
 }
 
-.img-sidebar-footer {
-    width: 20px;
+.img-download {
+    width: 10%;
     justify-content: center
 }
 
-.flex .color-white{
+.flex .color-white {
     margin-left: 10px;
 }
 
-.hr-sidebar{
+.hr-sidebar {
     width: 90%;
     color: rgb(255, 255, 255);
     margin-top: 10px;
+}
+
+.img-user {
+    width: 15%;
+    margin-top: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.jhon-doe {
+    display: inline-block;
 }
