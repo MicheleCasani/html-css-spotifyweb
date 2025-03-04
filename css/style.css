@@ -22,6 +22,10 @@ body {
     display: flex;
 }
 
+.justify-content{
+    justify-content: center;
+}
+
 /* header */
 
 header {
@@ -52,19 +56,14 @@ footer {
     background-color: rgb(40, 40, 40, 255);
 }
 
+
+/* sidebar */
+
 #sidebar {
     height: 100%;
     width: 200px;
     background-color: rgb(0, 0, 0);
 }
-
-#content {
-    width: calc(100% - 200px);
-    background-color: rgb(20, 25, 34, 255);
-    overflow-y: auto;
-}
-
-/* sidebar */
 
 .logo {
     width: 100%;
@@ -173,6 +172,12 @@ footer {
 
 /* content */
 
+#content {
+    width: calc(100% - 200px);
+    background-color: rgb(20, 25, 34, 255);
+    overflow-y: auto;
+}
+
 .text-content {
     justify-content: center;
     gap: 3%;
@@ -218,7 +223,103 @@ footer {
     margin-left: 20px;
 }
 
-.img-square-radius{
+.img-square-radius {
     width: 100%;
     border-radius: 50%;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: rgb(40, 40, 40, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-footer-left {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.square-img-footer{
+    height: 50px;
+}
+
+.square-img-footer img{
+    height:100%;
+}
+
+
+.size-footer-left {
+    font-size: 12px;
+    align-items: center;
+    padding-top: 9px;
+    margin-left: 10px;
+}
+
+.btn-footer-left{
+    align-items: center;
+    padding: 9px;
+    margin-left: 30px;
+}
+
+.btn-footer-left i{
+    margin-right: 10px;
+}
+
+.card-footer-center{
+    width: 40%;
+    height: 50%;
+}
+
+.card-footer-center i{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer-center i:nth-child(3){
+    font-size: 30px;
+    position: relative;
+}
+
+.line{
+    width: 500px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    height: 0px;
+    margin: 15px 20px 0px 20px;
+
+}
+
+.card-footer-right{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.time{
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.volume{
+    width: 100px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    height: 0px;
+    margin: 5px 20px 0px 20px;
+}
+
+.card-footer-right i{
+    color: white;
+    margin-right: 15px;
+    font-size: 10px;
 }
