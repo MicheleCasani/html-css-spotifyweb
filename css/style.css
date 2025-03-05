@@ -298,6 +298,16 @@ footer {
 
 }
 
+.line2 {
+    width: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 0px;
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+}
+
 .card-footer-right {
     width: 20%;
     height: 50%;
@@ -318,6 +328,17 @@ footer {
     border-radius: 50px;
     height: 0px;
     margin: 5px 20px 0px 20px;
+}
+
+.volume2 {
+    width: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 0px;
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+    
 }
 
 .card-footer-right i {
