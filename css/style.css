@@ -107,7 +107,9 @@ footer {
     position: relative;
     display: inline-block;
     margin-top: 10px;
+    vertical-align: middle;
 }
+
 
 .plus {
     position: absolute;
@@ -125,6 +127,9 @@ footer {
 
 .text-playlist {
     display: inline-block;
+   vertical-align: middle;
+   margin-top: 10px;
+   margin-left: 5px;
 }
 
 .card-list {
@@ -143,7 +148,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
-    margin-top: 260px;
+    margin-top: 275px;
 
 }
 
@@ -166,10 +171,14 @@ footer {
     border-radius: 50%;
     padding: 5px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .jhon-doe {
     display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 /* content */
@@ -264,7 +273,6 @@ footer {
 }
 
 .btn-footer-left {
-    align-items: center;
     padding: 9px;
     margin-left: 30px;
 }
