@@ -52,7 +52,7 @@ header {
 
 
 main {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     display: flex;
 }
 
@@ -148,7 +148,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
-    margin-top: 275px;
+    margin-top: 375px;
 
 }
 
