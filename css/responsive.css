@@ -1,13 +1,13 @@
 /* responive */
 
 
-/* tablet version */
+/* tablet version  1000px*/
 @media screen and (max-width: 1000px) {
     .text-content {
         display: flex;
         flex-wrap: wrap;
         font-size: 15px;
-        gap:7%;
+        gap: 7%;
     }
 
     .text-content :last-child {
@@ -47,17 +47,17 @@
     }
 }
 
-/* mobile version */
+/* mobile version 700px*/
 
 @media screen and (max-width: 700px) {
     .text-content {
         display: flex;
         flex-wrap: wrap;
         font-size: 15px;
-        gap:10%;
+        gap: 10%;
     }
 
-    .margin-top{
+    .margin-top {
         margin-top: 30px;
     }
 
@@ -65,7 +65,7 @@
         width: 40%;
     }
 
-    .card-square{
+    .card-square {
         justify-content: center;
     }
 
@@ -78,15 +78,77 @@
     }
 }
 
-/* mobile xs version */
+/* mobile xs version 600px */
 
-@media screen and (max-width: 500px){
-ul{
-    display: none;
-}
+@media screen and (max-width: 600px) {
+    ul {
+        display: none;
+    }
 
-#sidebar{
-    width: 50px;
-}
+    .text-content {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+        gap: 7%;
+    }
 
+    #sidebar {
+        width: 70px;
+    }
+
+    #content {
+        width: calc(100% - 70px);
+
+    }
+
+    .text-content :nth-child(4) {
+        margin-top: 0px;
+    }
+
+    .card-footer-center i {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .volume {
+        width: 70px;
+    }
+
+    .volume2 {
+        width: 20%;
+    }
+
+    .hide-sidebar {
+        display: none;
+    }
+
+    .logo-small {
+        display: inline-block;
+        width: 80%;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .img-sidebar {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .img-user{
+        width: 60%;
+    }
+
+    .img-download{
+        width: 35%;
+        margin-left: 6px;
+    }
+
+    .sidebar-footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-top: 820px;
+    }
 }

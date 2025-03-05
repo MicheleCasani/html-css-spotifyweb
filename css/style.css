@@ -75,6 +75,10 @@ footer {
     padding: 20px 50px 10px 10px;
 }
 
+.logo-small{
+    display: none;
+}
+
 .card-sidebar {
     width: 100%;
     margin-left: 15px;
