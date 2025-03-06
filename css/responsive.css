@@ -46,13 +46,7 @@
         align-items: center;
     }
 
-    .sidebar-footer {
-        display: flex;
-        flex-direction: column;
-        margin-left: 15px;
-        margin-top: 370px;
     
-    }
 }
 
 /* mobile version 700px*/
@@ -153,10 +147,7 @@
         margin-left: 6px;
     }
 
-    .sidebar-footer {
-        display: flex;
-        flex-direction: column;
-        margin-left: 15px;
-        margin-top: 820px;
+    .bottom-sidebar{
+        height: 80%;
     }
 }
