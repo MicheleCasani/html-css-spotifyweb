@@ -152,6 +152,8 @@
     }
 }
 
+/* mobile xxs version 480px bonus */
+
 @media screen and (max-width: 480px){
 
     .card-footer-right{
